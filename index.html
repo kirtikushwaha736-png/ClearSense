@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Don’t Guess — Understand It</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Paste exactly what you see. Get clarity instantly." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Don’t guess.<br><span>Show me exactly what’s happening.</span></h1>
+      <p class="sub">
+        Paste the exact message, error, or problem you see.<br>
+        I read carefully. I respond like a human.
+      </p>
+
+      <textarea id="userInput" placeholder="Paste here…"></textarea>
+
+      <button id="solveBtn">Understand This</button>
+
+      <div class="status" id="statusText"></div>
+    </section>
+
+    <section class="result hidden" id="resultBox">
+      <h2>Here’s what’s happening</h2>
+      <div class="answer" id="aiAnswer"></div>
+
+      <div class="actions">
+        <button class="secondary">Download PDF</button>
+        <button class="secondary">Share</button>
+        <button class="secondary">Export</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+  </html>
